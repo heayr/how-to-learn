@@ -11,7 +11,6 @@
 }
 
 .header {
-  /* box-sizing: border-box; */
   position: relative;
   height: 100vh;
   min-height: 600px;
@@ -24,7 +23,7 @@
 .logo {
   position: absolute;
   width: 183px;
-  height: 32px
+  height: 32px;
 }
 
 .logo_place_header {
@@ -286,7 +285,6 @@ padding: 90px 0;
   z-index: 2;
   list-style: none;
   padding: 0;
-  width: 1100px;
 }
 
 .kaufman__cell_theme-dark {
@@ -298,10 +296,6 @@ padding: 90px 0;
 .kaufman__cell_theme-dark_no-margin {
   z-index: 2;
   width: 200px;
-}
-
-.kaufman__table_theme-dark {
-
 }
 
 .kaufman_table__heading_theme-dark {
