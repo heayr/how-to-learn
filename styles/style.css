@@ -19,13 +19,10 @@
   /* выше установили ограничения для секции */
 }
 
-.logo {
+.logo_place_header {
   position: absolute;
   width: 183px;
   height: 32px;
-}
-
-.logo_place_header {
   top: 30px;
   left: 64px;
   z-index: 1;
@@ -43,11 +40,6 @@
   z-index: 2;
 }
 
-.header__link {
-  text-decoration: none;
-  color: #2f80ed;
-}
-
 .header__subtitle {
   margin: 0;
   position: absolute;
@@ -59,6 +51,11 @@
   z-index: 2;
 }
 
+.header__link {
+  text-decoration: none;
+  color: #2f80ed;
+}
+/* картинка опять двойка в хедере */
 .header__main-illustration {
   position: absolute;
   bottom: 0;
@@ -69,6 +66,7 @@
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+/* квадрат на фоне блока */
 .header__square-pic {
   position: absolute;
   top: 64px;
@@ -77,16 +75,13 @@
   width: 568px;
   background-color: #2f80ed;
 }
-
-.content {
-}
-
+/* центрируем блок по оси-x */
 .description {
-  margin: 100px 0;
+  margin: 100px auto;
   display: flex;
   justify-content: center;
 }
-
+/* развигаем блоки по краям родителя при ширине 80% от максимальной ширины*/
 .two-columns {
   display: flex;
   justify-content: space-between;
@@ -97,8 +92,9 @@
   width: 175px;
   font-size: 18px;
   line-height: 1.2;
-  text-decoration: none;
+  font-weight: normal;
   color: #2f80ed;
+  margin: 0;
 }
 
 .two-columns__main-text {
@@ -111,15 +107,11 @@
   line-height: 34px;
   font-size: 24px;
 }
-
+/* псевдокласс для последного элемента в блоке, убирающий марджин снизу */
 .two-columns__paragraph:last-of-type {
   margin-bottom: 0;
 }
-
-.two-columns__paragraph_empty {
-  margin-top: 30px;
-}
-
+/* выделяем текст жирным шрифтом */
 .two-columns__span-accent {
   font-weight: bolder;
 }
@@ -127,15 +119,14 @@
 .digits {
   margin-top: 100px;
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
 .section-title {
   display: flex;
-  width: 60%;
   justify-content: center;
+  width: 60%;
   font-size: 60px;
   font-weight: bolder;
   line-height: 1.15;
@@ -151,7 +142,7 @@
   font-size: 24px;
   margin: 20px 0 0;
 }
-
+/* первая таблица в третьем блоке */
 .table {
   display: flex;
   justify-content: space-evenly;
@@ -179,7 +170,7 @@
   line-height: 1.2;
   font-size: 18px;
 }
-
+/* 4-й блок, с фоновой картинкой */
 .feynman {
   margin-top: 100px;
   position: relative;
@@ -219,14 +210,7 @@
   line-height: 51px;
   font-size: 36px;
 }
-
-.feynman__image {
-  width: 867px;
-  min-height: 637px;
-  z-index: -1;
-  bottom: 0;
-}
-
+/* 5-ый блок со 2-ой таблицей с чёрным фоном*/
 .kaufman {
   background-color: #1f1f1f;
   color: #f2f2f2;
@@ -255,7 +239,7 @@
   font-size: 24px;
 }
 
-.table_theme_dark  {
+.table_theme_dark {
   margin: 0 auto;
   padding: 0;
   width: 1100px;
@@ -281,7 +265,7 @@
   margin-right: 0;
   z-index: 2;
 }
-
+/* псевдокласс, добавляем нижний марджин для первых 5-ти элементов таблицы */
 .table__cell_theme_dark:nth-of-type(5) {
   margin-bottom: 80px;
 }
@@ -292,9 +276,8 @@
   z-index: 2;
   padding: 0;
   margin: 0;
-
 }
-
+/* треугольник на фоне блока кауфмена */
 .kaufman__triangle {
   position: absolute;
   right: -210px;
@@ -303,7 +286,7 @@
   width: 877px;
   height: 877px;
 }
-
+/* футер */
 .footer {
   background-color: #1f1f1f;
   color: #f2f2f2;
@@ -313,14 +296,14 @@
   box-sizing: border-box;
   padding: 60px 0 40px;
 }
-
+/* раздвигаем блоки по ширине футера по оси-х*/
 .footer__columns {
   width: 90%;
   margin: 0 auto 0;
   display: flex;
   justify-content: space-between;
 }
-
+/* раздвигаем элементы лого и автора по оси-у к краям блока родителя*/
 .footer__column_content_copyright {
   display: flex;
   flex-direction: column;
@@ -340,36 +323,14 @@
   font-size: 18px;
 }
 
-.footer__column_content_info {
-  display: flex;
-  flex-direction: column;
-}
-
-.footer__column-heading{
+.footer__column-heading {
   margin: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 20px;
 }
-
-.footer__column_links {
-  display: flex;
-  flex-direction: column;
-}
-
-.footer__column_content_social {
-  display: flex;
-  flex-direction: column;
-}
-
-.footer__column_links {
-  display: flex;
-  flex-direction: column;
-  margin: 0 0 16px;
-  line-height: 30px;
-  font-size: 1px;
-}
+/* главные настройки ссылок выравнивание по цетру иконок и текста  */
 .footer__column-link {
   color: #f2f2f2;
   text-decoration: none;
@@ -379,7 +340,11 @@
   display: flex;
   align-items: center;
 }
-
+/* псевдокласс для нижнего марджина последник ссылок в болоках*/
+.footer__column-link:last-of-type {
+  margin-bottom: 16px;
+}
+/* размер и расстоние от текста лого соц сетей */
 .footer__social-icon {
   height: 16px;
   width: 16px;
