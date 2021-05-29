@@ -8,7 +8,7 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
-
+/* 1 блок */
 .header {
   position: relative;
   height: 100vh;
@@ -75,6 +75,7 @@
   width: 568px;
   background-color: #2f80ed;
 }
+/* 2-й блок */
 /* центрируем блок по оси-x */
 .description {
   margin: 100px auto;
@@ -115,7 +116,7 @@
 .two-columns__span-accent {
   font-weight: bolder;
 }
-
+/* 3-й блок */
 .digits {
   margin-top: 100px;
   display: flex;
