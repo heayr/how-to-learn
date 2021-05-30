@@ -222,8 +222,7 @@
 
 .section-title_theme_dark {
   margin: 0 auto;
-  display: flex;
-  justify-content: center;
+  text-align: center;
   width: 60%;
   line-height: 1.15;
   font-size: 60px;
@@ -233,10 +232,8 @@
 
 .section-subtitle_theme_dark {
   margin: 20px auto 0;
-  display: flex;
+  text-align: center;
   width: 60%;
-  align-content: center;
-  justify-content: center;
   line-height: 34px;
   font-size: 24px;
   color: white;
