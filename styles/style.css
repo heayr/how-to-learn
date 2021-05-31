@@ -64,7 +64,6 @@
   right: 0;
   width: 765px;
   height: 608px;
-
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
@@ -227,14 +226,11 @@
   color: white;
 }
 
-
-
 .section-subtitle_theme_dark {
   color: white;
 }
 
 .table_theme_dark {
-
 }
 
 .table__heading_theme_dark {
