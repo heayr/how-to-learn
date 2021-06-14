@@ -1,6 +1,7 @@
-/* написал в самих iframe */
-
 .video__iframe {
-  /* width: 515px;
-  height: 316px; */
+  width: 515px;
+  height: 316px;
+  border: 0;
+  /* border: none;  попробовал разные варианты*/
+  /* border-style: none; */
 }
