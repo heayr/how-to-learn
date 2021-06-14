@@ -19,10 +19,10 @@
 @import url(../blocks/two-colums/__span-accent/two-columns__span-accent.css);
 /* block section-title */
 @import url(../blocks/section-title/section-title.css);
-@import url(../blocks/section-title/_theme_dark/section-title_theme_dark.css);
+@import url(../blocks/section-title/_theme/section-title_theme_dark.css);
 /* block section-subtitle */
 @import url(../blocks/section-subtitle/section-subtitle.css);
-@import url(../blocks/section-subtitle/_theme_dark/section-subtitle_theme_dark.css);
+@import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
 /* block cards */
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/cards/__title/cards__title.css);
@@ -35,7 +35,7 @@
 @import url(../blocks/table/__heading/table__heading.css);
 @import url(../blocks/table/__text/table__text.css);
 @import url(../blocks/table/_theme/table_theme_dark.css);
-@import url(../blocks/table/__text/_theme_dark/table__text_theme_dark.css);
+@import url(../blocks/table/__text/_theme/table__text_theme_dark.css);
 @import url(../blocks/table/__heading/_theme/table__heading_theme_dark.css);
 @import url(../blocks/table/__cell/_theme/table__cell_theme_dark.css);
 /* block techiniques */
@@ -69,14 +69,14 @@
 /* block resources */
 @import url(../blocks/resources/resources.css);
 @import url(../blocks/resources/__logo/resources__logo.css);
-@import url(../blocks/resources/__logo-zone/resources__logo-zone\ .css);
+@import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
 /* block footer */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__author/footer__author.css);
 @import url(../blocks/footer/__column-heading/footer__column-heading.css);
 @import url(../blocks/footer/__column-link/footer__column-link.css);
 @import url(../blocks/footer/__column-links/footer__column-links.css);
-@import url(../blocks/footer/__column_content_copyright/footer__column_content_copyright.css);
+@import url(../blocks/footer/__column_content/footer__column_content_copyright.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
 /* block logo */
